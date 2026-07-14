@@ -1,0 +1,39 @@
+[Log] <color=#5EE05E>[UnitySkills]</color> [Self-Test] http://127.0.0.1:8090/health -> OK
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:LogSuccess (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:74)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass128_0:<RunSelfTest>b__0 (object) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2058)
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+[Log] <color=#5EE05E>[UnitySkills]</color> [Self-Test] http://localhost:8090/health -> OK
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:LogSuccess (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:74)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass128_0:<RunSelfTest>b__0 (object) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2058)
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+[Log] [UnitySkills] [Self-Test] Starting (ProcessJobQueue ticks=10, listener=True)
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:RunSelfTest () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2024)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass100_0:<ScheduleDelayedCall>g__Poll|0 () (at F:/Unity/Plugins/Unity-Skills-2.0.8/...
+[Log] [UnitySkills] 726 skills loaded | Instance: vlcdemottt_98B69C90
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:681)
+UnitySkills.SkillsHttpServer:ProcessJobQueue () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:1...
+[Log] [UnitySkills] REST Server started at http://localhost:8090/
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:680)
+UnitySkills.SkillsHttpServer:ProcessJobQueue () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:1152)...
+[Log] [UnitySkills] Discovered 726 skills
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillRouter:Initialize () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillRouter.cs:416)
+UnitySkills.SkillRouter:get_SkillCount () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillRouter.cs:93)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at...
+[Log] [UnitySkills] [SafetyNet] Server should be running but isn't — attempting recovery...
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:ProcessJobQueue () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:1149)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+

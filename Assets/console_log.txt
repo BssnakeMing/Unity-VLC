@@ -1,0 +1,64 @@
+[Log] <color=#5EE05E>[UnitySkills]</color> [Self-Test] http://127.0.0.1:8090/health -> OK
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:LogSuccess (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:74)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass128_0:<RunSelfTest>b__0 (object) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2058)
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+[Log] <color=#5EE05E>[UnitySkills]</color> [Self-Test] http://localhost:8090/health -> OK
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:LogSuccess (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:74)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass128_0:<RunSelfTest>b__0 (object) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2058)
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+[Log] [UnitySkills] [Self-Test] Starting (ProcessJobQueue ticks=777, listener=True)
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:RunSelfTest () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:2024)
+UnitySkills.SkillsHttpServer/<>c__DisplayClass100_0:<ScheduleDelayedCall>g__Poll|0 () (at F:/Unity/Plugins/Unity-Skills-2.0.8...
+[Log] [UnitySkills] 726 skills loaded | Instance: vlcdemottt_98B69C90
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:681)
+UnitySkills.TopbarController:ToggleServer () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/UI/Controllers/TopbarController...
+[Log] [UnitySkills] REST Server started at http://localhost:8090/
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsHttpServer.cs:680)
+UnitySkills.TopbarController:ToggleServer () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/UI/Controllers/TopbarController.cs:...
+[Log] [UnitySkills] Discovered 726 skills
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.SkillRouter:Initialize () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillRouter.cs:416)
+UnitySkills.SkillRouter:get_SkillCount () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillRouter.cs:93)
+UnitySkills.SkillsHttpServer:Start (int,bool) (at...
+[Log] [UnitySkills] Added package to manifest.json testables for Test Runner visibility.
+UnityEngine.Debug:Log (object)
+UnitySkills.SkillsLogger:Log (string) (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/SkillsLogger.cs:39)
+UnitySkills.PackageManagerHelper:EnsureTestable () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/Skills/PackageManagerHelper.cs:313)
+UnitySkills.PackageManagerHelper:Initialize () (at F:/Unity/Plugins/Unity-Skills-2.0.8/SkillsForUnity/Editor/S...
+[Error] Build completed with a result of 'Failed' in 193 seconds (193431 ms)
+3 errors
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[Error] CommandInvokationFailure: Gradle build failed. 
+F:\Unity\Engine\2022.3.36f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "F:\Unity\Engine\2022.3.36f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-7.2.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "assembleRelease"
+
+Environment Variables:
+NDI_RUNTIME_DIR_V5 = C:\Program Files\NDI\NDI 6 Tools\Runtime
+PROCESSOR_ARCHITECTURE = AMD64
+OO_SDK_ZIP_HOME = D:\ProgramFile...
+[Error] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+ERROR:F:\Unity\Project\vlcdemottt\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\libbluray-awt-j2se-1.4.0.jar: D8: java.lang.NullPointerException
+ERROR:F:\Unity\Project\vlcdemottt\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\libbluray-j2se-1.4.0.jar: D8: java.lang.NullPointerException
+ERROR:F:\Unity\Engine\2022.3.36f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-35\android.jar: D8: java.lang.NullPointerEx...
+[Error] Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (7.1.2) was tested up to compileSdk = 32
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties
+
+The build will continue, but you are strongly encouraged to update your project to
+use a newer Android Gradle Plugin that has been te...

@@ -1,0 +1,16 @@
+{
+    "name": "VLCUnity.Demos",
+    "rootNamespace": "",
+    "references": [
+        "GUID:330daf32eb922624abb139203ac0f545"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
