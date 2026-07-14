@@ -1,4 +1,7 @@
 Unity-VLC Demo
+编译于vlc-unity，可直接打开，已替换相关平台文件，没有水印和限制。
+自行编译vlc-android，替换unity-vlc收费版本
+
 1. 支持Window、Android
 2. 修复Android RTSP流的颜色错误
 3. 添加RTSP Server组件
